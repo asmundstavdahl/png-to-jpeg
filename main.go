@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Printf("Usage:\n\t%s png_path jpg_path", os.Args[0])
+		fmt.Printf("Usage:\n\t%s png_path jpg_path\n", os.Args[0])
 		os.Exit(1)
 	}
 
